@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./android.css">
+</head>
+<body>
+	<nav id="nav-bar">
+		<div class="name">Isaac Ogutu</div>
+		<ul class="nav-links">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<nav id="mobile-nav">
+		<div class="name">Isaac Ogutu</div>
+		<div class="mobile-menu">
+			<div class="mobile-menu-icon" onclick="togglemenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu-links">
+				<li><a href="#home" onclick="togglemenu()">Home</a></li>
+				<li><a href="#about" onclick="togglemenu()">About</a></li>
+				<li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+				<li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+				
+
+			</div>
+		</div>
+
+	</nav>
+	<script src="./script.js"></script>
+	<section id="home">
+		<div class="section_pic-container">
+			<img src="./p-assets/photo_2025-06-01_17-53-41.jpg" alt="Isaac Ogutu">
+								
+		</div>
+		<div class="section-text">
+			<p class="section-p">Hello I'm</p>
+			<h2 class="section-title">Isaac <br> Ogutu</h2>
+			<p class="section-p2">Software Engineer</p>
+			<div class="bt-contain">
+				<button class="btn-colour1" onclick="window.open('./p-assets/ISAAC OGUTU RESUME.pdf') ">View Resume</button>
+			</div>
+			<div id="socials-icons">
+				<img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_linkedin-512.png"
+				alt="linkedin"
+				class="icon1" 
+				onclick="location.href='https://linkedin.com/in/isaac-ogutu-0186b3323'">
+			
+				<img src="https://www.pngplay.com/wp-content/uploads/12/GitHub-PNG-HD-Quality.png" 
+				alt="github"
+				class="icon1" 
+				onclick="location.href='https://github.com/ogzacky75'">
+			</div>
+		</div>
+	</section>
+	<section id="about">
+		<div>
+			<h1 class="aboutme">About Me:</h1>
+			<div> 
+				<p class="aboutme2">
+					My Name Is Isaac Ogutu, An ameteur Software Engineer <br>
+					I like playing games, watching movies and anime <br>
+					My favorite food is meat <br>
+					I aspire to help in inovation of tech around the world, both software and hardware <br>
+					My hobby is drawing, i like art, when i draw i feel like i am at ease
+				</p>
+			</div>
+
+		</div>
+		
+	</section>
+	<section id="projects">
+		<div>
+			<h1 class="projects1">
+				Some Of My art Projects
+			</h1>
+		</div>
+		<div class="project-photos">
+			<div>
+				<img src="./p-assets/ar1.jpg" alt="pic-1" class="pic1"
+				onclick="window.open('./p-assets/ar1.jpg')">
+			</div>
+			<div>
+				<img src="./p-assets/ar2.jpg" alt="pic-2" class="pic2"
+				onclick="window.open('./p-assets/ar2.jpg')">
+			</div>
+			<div>
+				<img src="./p-assets/ar3.jpg" alt="pic-3" class="pic3"
+				onclick="window.open('./p-assets/ar3.jpg')">
+			</div>
+		</div>
+		
+	</section>
+	<section id="contact">
+		<div class="contact-s">
+			<h1>Contacts</h1>
+		</div>
+		<div class="contacts-s2">
+			<div>
+				<img id="ig" src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png"
+				 alt="Instagram"
+				 onclick="location.href='https://instagram.com/o.gzacky/'"
+				 >
+			</div>
+			<div>
+				<img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_linkedin-512.png" 
+				alt="Linkedin"
+				onclick="location.href='https://linkedin.com/in/isaac-ogutu-0186b3323'">
+			</div>
+			<div>
+				<img src="https://www.pngplay.com/wp-content/uploads/12/GitHub-PNG-HD-Quality.png" 
+				alt="Github"
+				onclick="location.href='https://github.com/ogzacky75'">
+			</div>
+			<div class="number">
+				<img id="whatsap" src="https://pngimg.com/d/whatsapp_PNG21.png" 
+					alt="whatsapp">
+				<p class="number1">+254 715 474714</p>
+			</div>
+
+		</div>
+		
+	</section>
+	
+</body>
+</html>
